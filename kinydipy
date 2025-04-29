@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivatGD - Приватный сервер Geometry Dash</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #6e48aa, #9d50bb);
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .server-info {
+            background: #2a2a2a;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .feature {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1 1 200px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #6e48aa;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #9d50bb;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1a1a1a;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PrivatGD</h1>
+        <p>Приватный сервер Geometry Dash | Открыт 20.04.2025</p>
+    </header>
+
+    <div class="container">
+        <section class="server-info">
+            <h2>Добро пожаловать на PrivatGD!</h2>
+            <p>
+                Это уникальный приватный сервер Geometry Dash с модификациями, эксклюзивными уровнями и улучшенным геймплеем. 
+                Сервер официально открылся <strong>20 апреля 2025 года</strong> и постоянно развивается!
+            </p>
+        </section>
+
+        <section>
+            <h2>Особенности сервера</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>🚀 Уникальные уровни</h3>
+                    <p>Эксклюзивные карты, которых нет в официальной версии GD.</p>
+                </div>
+                <div class="feature">
+                    <h3>🎮 Новые механики</h3>
+                    <p>Дополнительные игровые режимы и улучшенная физика.</p>
+                </div>
+                <div class="feature">
+                    <h3>💡 Свои скины и иконки</h3>
+                    <p>Кастомизация персонажа с новыми элементами.</p>
+                </div>
+                <div class="feature">
+                    <h3>🌐 Онлайн-лидерборды</h3>
+                    <p>Рейтинги игроков и таблицы рекордов.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Как присоединиться?</h2>
+            <p>
+                Скачайте модифицированный клиент PrivatGD и начните играть прямо сейчас!
+            </p>
+            <a href="#download" class="download-btn">Скачать PrivatGD</a>
+            <p><small>(Версия 1.0, доступна для Windows и Android)</small></p>
+        </section>
+
+        <section>
+            <h2>Контакты</h2>
+            <p>
+                По вопросам и предложениям пишите:<br>
+                Discord: <strong>PrivatGD#0000</strong><br>
+                VK: <strong><a href="https://vk.com/privatgd" style="color: #6e48aa;">vk.com/privatgd</a></strong>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 PrivatGD. Неофициальный сервер Geometry Dash.</p>
+    </footer>
+</body>
+</html>
